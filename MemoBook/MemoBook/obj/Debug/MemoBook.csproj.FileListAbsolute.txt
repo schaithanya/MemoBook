@@ -1,0 +1,5 @@
+G:\MyDrive\MyApps\MemoBook\MemoBook\MemoBook\bin\MemoBook.dll
+G:\MyDrive\MyApps\MemoBook\MemoBook\MemoBook\bin\MemoBook.pdb
+G:\MyDrive\MyApps\MemoBook\MemoBook\MemoBook\obj\Debug\MemoBook.csprojResolveAssemblyReference.cache
+G:\MyDrive\MyApps\MemoBook\MemoBook\MemoBook\obj\Debug\MemoBook.dll
+G:\MyDrive\MyApps\MemoBook\MemoBook\MemoBook\obj\Debug\MemoBook.pdb

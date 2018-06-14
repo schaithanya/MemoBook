@@ -2,8 +2,145 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>MEMO BOOK</title>
+    <script src="scripts/mainpage.js"></script>
+    <script type="text/javascript">
+
+
+    </script>
+    <link href="css/common.css" rel="stylesheet" />
+    <style type="text/css">
+        input[type=text]
+        {
+            padding: 0;
+            width: 50em;
+            height: 160px;
+            border: 2px solid blue;
+            border-radius: 4px;
+        }
+
+        .postButton
+        {
+            background-color: #ef5011;
+            width: 10em;
+            height: 4.5em;
+            float: right;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="main">
+        <img src="Images/Profile.png" style="border-radius: 50%; float: left; width: 60px" />
+        <h1>MEMO BOOK</h1>
+
+        <hr>
+        <h2>WELCOME CHAITHANYA!!</h2>
+        <div>
+            <input type="image" src="Images/Portrait.png" style="border-radius: 50%; float: left; width: 160px" />
+            <input type="text" />
+            <div style="float: right">
+                <div>
+                    <input type="image" src="Images/Camera.png" width="80" height="80" style="vertical-align: middle;" onclick="" />
+                    <input type="image" src="Images/PhotoGallery.png" width="80" height="80" style="vertical-align: middle;" onclick="" />
+                </div>
+                <button class="postButton">POST!!</button>
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+        <div id="myBtnContainer">
+
+            <button class="btn active" onclick="filterSelection('all')">All Pics</button>
+            <button class="btn" onclick="filterSelection('nature')">Selfie</button>
+            <button class="btn" onclick="filterSelection('cars')">Video</button>
+            <button class="btn" onclick="filterSelection('people')">Other</button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="column nature">
+                <div class="content">
+                    <img src="/w3images/mountains.jpg" alt="Mountains" style="width: 100%">
+                    <h4>Mountains</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column nature">
+                <div class="content">
+                    <img src="/w3images/lights.jpg" alt="Lights" style="width: 100%">
+                    <h4>Lights</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column nature">
+                <div class="content">
+                    <img src="/w3images/nature.jpg" alt="Nature" style="width: 100%">
+                    <h4>Forest</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column cars">
+                <div class="content">
+                    <img src="/w3images/cars1.jpg" alt="Car" style="width: 100%">
+                    <h4>Retro</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column cars">
+                <div class="content">
+                    <img src="/w3images/cars2.jpg" alt="Car" style="width: 100%">
+                    <h4>Fast</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column cars">
+                <div class="content">
+                    <img src="/w3images/cars3.jpg" alt="Car" style="width: 100%">
+                    <h4>Classic</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column people">
+                <div class="content">
+                    <img src="/w3images/people1.jpg" alt="Car" style="width: 100%">
+                    <h4>Girl</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column people">
+                <div class="content">
+                    <img src="/w3images/people2.jpg" alt="Car" style="width: 100%">
+                    <h4>Man</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column people">
+                <div class="content">
+                    <img src="/w3images/people3.jpg" alt="Car" style="width: 100%">
+                    <h4>Woman</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <!-- END GRID -->
+        </div>
+
+        <!-- END MAIN -->
+
+
+        <footer>© Chaithanya Suthram</footer>
+    </div>
 
 </body>
 </html>
