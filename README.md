@@ -4,10 +4,10 @@
 Should be easy to create posts and also easy to view and filter.</p>
 
 <h3>Programming Languages/Tools</h3>
-Angular js 
-WebApi
-Visual Studio Code
-Visual Studio 
+Angular js <br>
+WebApi<br>
+Visual Studio Code<br>
+Visual Studio <br>
 
 <h3>Installation</h3>
 
