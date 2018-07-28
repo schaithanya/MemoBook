@@ -11,11 +11,11 @@ Visual Studio <br>
 
 <h3>Installation</h3>
 
-Angular js 
+<b>Angular js <b>
 
 Install Node js from the following links : https://nodejs.org/en/download/
 
-Follow the angular CLI installation from the following link : https://angular.io/guide/quickstart --> Do not use command prompt
+Follow the angular CLI installation from the following link : https://angular.io/guide/quickstart --> Do not use node js command prompt
 
 Some installation issues :
 Issue 1 : Some common error ssl-error-cert-untrusted-while-using-npm-command
