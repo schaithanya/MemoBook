@@ -23,3 +23,9 @@ Solution: bypass https using below commands<br>
 npm config set strict-ssl false<br>
 or <br>
 set the registry from https to http like below : npm config set registry="http://registry.npmjs.org/"<br>
+
+Issue 2 : Unable to verify the first certificate
+Solution: by pass the restriction by setting the environment variable 
+From the terminal type the below command:
+
+set  NODE_TLS_REJECT_UNAUTHORIZED=0
